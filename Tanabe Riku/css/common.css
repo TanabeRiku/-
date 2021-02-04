@@ -1,0 +1,32 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: ヒラギノ角ゴシック W0;
+}
+
+#concept h1, #concept h2, #concept h3, #works-ttl, #prof-ttl, .en-vtc, #contact a {
+  font-family: Oskari G2;
+}
+
+img {
+  filter: grayscale(100%);
+  transition: filter 1s;
+}
+
+img:hover {
+  filter: none;
+  transition: 1s;
+}
+
+#concept-vtc span, .ttl span {
+  color: rgb(122, 180, 235);
+}
+
+i {
+  color: rgb(181, 181, 181);
+}

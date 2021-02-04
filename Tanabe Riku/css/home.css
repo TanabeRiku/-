@@ -1,0 +1,495 @@
+#main {
+  position: relative;
+}
+
+header {
+  height: 80px;
+  background-color: rgb(251, 251, 251);
+}
+
+#icon {
+  filter: none;
+  width: 60px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+#nav ul {
+  float: right;
+}
+
+#nav ul li {
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 17.5px;
+  margin-right: 20px;
+}
+
+#nav ul li a {
+  color: inherit;
+}
+
+#nav ul li a:hover {
+  color: rgb(122, 180, 235);
+  transition: 0.5s;
+}
+
+.nav-icon {
+  display: none;
+}
+
+#container {
+  width: 70%;
+  margin: 200px auto 0 auto;
+  background-image: url(../img/home:bg.png);
+  background-size: 600px 400px;
+  background-color:rgba(255,255,255,0.9);
+  background-blend-mode: lighten;
+}
+
+#concept {
+  height: 300px;
+}
+
+#half-name-vtc {
+  writing-mode: vertical-rl;
+  position: absolute;
+  top: 450px;
+  left: 3%;
+  font-size: 36px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 14px;
+}
+
+#concept-vtc {
+  writing-mode: vertical-rl;
+  position: absolute;
+  top: 250px;
+  left: 12%;
+  font-size: 120px;
+  letter-spacing: 6px;
+}
+
+#concept-ttl {
+  top: 300px;
+}
+
+.ttl {
+  font-size: 60px;
+  font-weight: lighter;
+  position: absolute;
+  right: 10%;
+}
+
+#concept-copy {
+  float: right;
+  margin: 150px 0 30px 0;
+  width: 63%;
+}
+
+#works {
+  height: 200px;
+  margin-top: 200px;
+}
+
+#works-ttl {
+  top: 650px;
+}
+
+.work {
+  width: 24%;
+  min-width: 220px;
+  position: absolute;
+  top: 780px;
+}
+
+.work img {
+  border: solid 1px rgb(181, 181, 181);
+}
+
+.sanpo, .mac {
+  width: 90%;
+}
+
+.sanpo-wrp {
+  left: 20%;
+}
+
+.mac-wrp {
+  left: 50%;
+}
+
+#making  {
+  font-size: 20px;
+  position: absolute;
+  top: 960px;
+  right: 12.5%;
+  color: inherit;
+}
+
+#works-arrow {
+  position: absolute;
+  transform: skewX(40deg);
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 100px;
+  height: 1%;
+  margin-left: 30px;
+  top: 970px;
+  right: 12%;
+}
+
+#making a:hover {
+  opacity: 0.5;
+}
+
+#profile {
+  margin-top: 200px; 
+}
+
+#prof-ttl {
+  top: 1140px;
+}
+
+#ol-copy {
+  width: 47%;
+  margin-top: 280px;
+  margin-left: 7%;
+}
+
+.more a{
+  font-size: 20px;
+  color: inherit;
+  position: absolute;
+  top: 1350px;
+  right: 13%;
+}
+
+.more a:hover {
+  opacity: 0.5;
+}
+
+#prof-arrow {
+  transform: skewX(40deg);
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 1%;
+  width: 116px;
+  position: absolute;
+  top: 1360px;
+  right: 12%;
+}
+
+.en-vtc {
+  font-size: 14px;
+  line-height: 20px;
+  writing-mode: vertical-rl;
+  position: absolute;
+  top: 1140px;
+  left: 50px;
+}
+
+#sns-nav {
+  position: absolute;
+  top: 1140px;
+}
+
+.triangle {
+  font-size: 8px;
+  margin-bottom: 8px;
+}
+
+#sns-nav a {
+  color: inherit;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+#sns-nav a:hover {
+  color: rgb(122, 180, 235);
+  transition: 0.5s;
+}
+
+#prof-img {
+  margin-top: 100px;
+}
+
+#main-img {
+  width: 100%;
+}
+
+#main-img:hover {
+  filter: grayscale(100%);
+}
+
+#contact {
+  margin-top: 50px;
+  width: 40%;
+  height: 100px;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  line-height: 100px;
+  border: solid 2px black;
+  letter-spacing: 2px;
+  transition-property: color, background-color, letter-spacing;
+  transition-duration: 0.5s;
+}
+
+#contact:hover {
+  transition-duration: 0.5s;
+  color: rgb(122, 180, 235);
+  background-color: white;
+  letter-spacing: 10px;
+}
+
+#contact a {
+  color: inherit;
+}
+
+#sns {
+  margin-top: 200px;
+  margin-left: 15%;
+  color: rgb(102, 102, 102);
+}
+
+#sns i {
+  margin-right: 20px;
+}
+
+#sns a {
+  color: inherit;
+  padding: 0px;
+  display: inline-block;
+  margin-bottom: 30px;
+  border-bottom: solid 1px rgb(179, 179, 179);
+}
+
+#sns a:hover {
+  opacity: 0.5;
+}
+
+footer {
+  margin: 200px 0 100px 15%;
+}
+
+#thanks {
+  font-size: 30px;
+}
+
+#page-top {
+  border-top: solid 1px black;
+  border-left: solid 1px black;
+  height: 60px;
+  width: 10px;
+  transform: skewY(40deg);
+  position: absolute;
+  top: 2600px;
+  right: 50px;
+}
+
+#page-top:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  #nav ul {
+    display: none;
+  }
+
+  .nav-icon {
+    display: block;
+    font-size: 40px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  #half-name-vtc {
+    writing-mode: horizontal-tb;
+    top: 170px;
+    left: 5%;
+    height: 14px;
+    width: 204px;
+  }
+
+  #concept-vtc {
+    top: 250px;
+    left: 12%;
+    font-size: 80px;
+    letter-spacing: 4px;
+  }
+
+  #works-ttl {
+    top: 700px;
+  }
+
+  .sanpo-wrp {
+    left: 17%;
+    top: 740px;
+  }
+  
+  .mac-wrp {
+    left: 47%;
+    top: 870px;
+  }
+
+  #making  {
+    top: 1002px;
+    right: 13%;
+  }
+  
+  #works-arrow {
+    width: 100px;
+    height: 1%;
+    top: 1012px;
+    right: 12%;
+  }
+
+  #prof-ttl {
+    top: 1100px;
+  }
+
+  .more a{
+    top: 1500px;
+    right: 14%;
+  }
+  
+  #prof-arrow {
+    top: 1510px;
+    right: 12%;
+  }
+
+  .en-vtc {
+    font-size: 10px;
+    left: 30px;
+  }
+
+  #sns-nav {
+    top: 1100px;
+  }
+
+  #contact {
+    width: 50%;
+    height: 80px;
+    line-height: 80px;
+  }
+
+  #page-top {
+    top: 2600px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  #concept-vtc {
+    writing-mode: horizontal-tb;
+    top: 380px;
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+
+  #concept-vtc br {
+    display: none;
+  }
+
+  #concept-copy {
+    float: left;
+    margin: 180px auto 30px 6%;
+    width: 90%;
+  }
+  
+  #works-ttl {
+    top: 800px;
+  }
+
+  .work {
+    min-width: 200px;
+  }
+
+  .sanpo-wrp {
+    left: 20%;
+    top: 900px;
+  }
+  
+  .mac-wrp {
+    left: 20%;
+    top: 1040px;
+  }
+  
+  #making  {
+    top: 1180px;
+  }
+  
+  #works-arrow {
+    top: 1190px;
+  }
+
+  #profile {
+    margin-top: 440px; 
+  }
+
+  #prof-ttl {
+    top: 1320px;
+  }
+  
+  #ol-copy {
+    width: 90%;
+    margin-left: 6%;
+  } 
+
+  .more a{
+    top: 1750px;
+    right: 15%;
+  }
+  
+  #prof-arrow {
+    top: 1760px;
+  }
+
+  .en-vtc {
+    font-size: 10px;
+    top: 1320px;
+    left: 6px;
+  }
+
+  #sns-nav {
+    top: 1200px;
+  }
+
+  #prof-img {
+    margin-top: 180px;
+  }
+
+  #contact {
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    margin: 50px auto 0 auto;
+    font-size: 24px;
+  }
+
+  #sns {
+    margin-top: 100px;
+  }
+
+  footer {
+    margin-top: 80px; 
+    margin-left: 10px;
+  }
+
+  #thanks {
+    font-size: 20px;
+  }
+
+  #page-top {
+    top: 2400px;
+    right: 30px;
+    width: 6px;
+    height: 40px;
+  }
+
+}
